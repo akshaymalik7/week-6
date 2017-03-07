@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!-- CSS Imports -->
+    <script src='https://api.mapbox.com/mapbox.js/plugins/turf/v2.0.2/turf.min.js'></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.32.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div id="All">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h1 id="title"><span id="light">my</span>
+        <br>Cities
+        <span id="light">my</span>
+        <br>Journeys</h1>
+      <h3 id="header"> SOME STORY </h3>
+      <div id="paragraph01"> STORY PAGE 1 </div>
+
+      <div class= "buttonBox">
+        <button id="buttonPr" onclick="previousClick()"> Previous </button>
+        <button id="buttonNe" onclick="nextClick()"> Next </button>
+      </div>
+    </div>
+
+
+    <!-- Map -->
+    <div id='map'></div>
+  </div>
+    <!-- Javascript Code -->
+
+    <script src="js/underscore.js"></script>
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/pathInfo.js"></script>
+    <script src="js/pageData.js"></script>
+    <script src="js/story.js"></script>
+  </body>
+</html>

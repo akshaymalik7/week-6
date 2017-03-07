@@ -1,0 +1,138 @@
+/* =================
+Add more styles here!
+================= */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    display: block;
+}
+
+#All {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+}
+
+
+.sidebar {
+    position: absolute;
+    width: 38%;
+    height: 600px;
+    top: 30px;
+    bottom: 0;
+
+
+}
+
+#map {
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    width: 60%;
+    height: 600px;
+}
+
+
+#title {
+    text-shadow:-1px 2px 1px rgba(219,219,219,1);
+    color:#767474;
+    letter-spacing:4pt;
+    font-size:42px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    top: 0;
+}
+
+#light {
+    text-shadow:-1px 2px 1px rgba(219,219,219,1);
+    font-weight:normal;
+    color:#767474;
+    letter-spacing:2pt;
+    font-size:18px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: lighter;
+    top: 0;
+}
+
+#header {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  margin-top: 100px;
+  width: 100%;
+  height: 30px;
+  overflow: hidden;
+  border: none;
+  font: normal 16px/1 "cantarell", Helvetica, sans-serif;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color:#767474;
+
+}
+
+
+#paragraph01{
+  height: 20%;
+  width: 100%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  width: 90%;
+  overflow: hidden;
+  border: none;
+  font: normal 12px/1.4 "cantarell", Helvetica, sans-serif;
+  text-align: left;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color:#767474;
+}
+
+.buttonBox {
+  margin-top: 80px;
+  bottom: 0;
+}
+
+
+#buttonPr {
+
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 1px #666666;
+  -moz-box-shadow: 0px 1px 1px #666666;
+  box-shadow: 0px 1px 1px #666666;
+  font-family: Arial;
+  color: #767474;
+  font-size: 14px;
+  background: #f5f1ed;
+  padding: 9px 40px 1px 6px;
+  border: solid #f5f1ed 3px;
+  text-decoration: none;
+  height: 30px;
+  width: 100px;
+  position: relative;
+}
+
+
+#buttonNe {
+
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 1px #666666;
+  -moz-box-shadow: 0px 1px 1px #666666;
+  box-shadow: 0px 1px 1px #666666;
+  font-family: Arial;
+  color: #767474;
+  font-size: 14px;
+  background: #f5f1ed;
+  padding: 9px 0px 1px 40px;
+  border: solid #f5f1ed 3px;
+  text-decoration: none;
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  right:30px;
+
+}
